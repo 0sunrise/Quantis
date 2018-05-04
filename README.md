@@ -5,14 +5,14 @@ The guide below is done using Ubuntu 16.04 64-bit.
 1. Requirements  
 2. Local Windows wallet setup1
 3. VPS setup  
-3-1. Install the dependancies(If already running other masternodes, skippable)  
-3-2. Open Firewall for Quantis  
-3-3. Compiling  
-  3-3-1. Setup swapfile  
-  3-3-2. Downloading Quantis source code from official release  
-  3-3-3. Compiling  
-3-4. Setup conf file
-3-5. Starting wallet daemon
+    3-1. Install the dependancies(If already running other masternodes, skippable)  
+      3.2. Open Firewall for Quantis  
+    3-3. Compiling  
+      3-3-1. Setup swapfile  
+      3-3-2. Downloading Quantis source code from official release  
+      3-3-3. Compiling  
+    3-4. Setup conf file
+    3-5. Starting wallet daemon
 4. Local Windows wallet setup2  
 5. Starting Masternode  
 6. Checking masternode status  
@@ -123,6 +123,7 @@ Edit `masternode.conf`
 ex. Masternode-1 123.456.789.0:5050 1234567890asdfghjk 0  
 (masternodekey and collateraltx and index are pasted from `Debug window`)  
 Close `masternode.conf` and windows wallet  
+___
 ### 5. Start Masternode  
 Start windows wallet  
 Go to `Masternodes` tab  
@@ -132,11 +133,13 @@ Click `Update`
 Select Alias made at step2  
 Click `Start`  
 After a muinite your masternode will appear on `Quantis Network`
+___
 ### 6. Check masternode status  
 After 30 nuinites `Active(secs)` reflected on Your masternode  
 It is Recommended to be checked by click `Update` regularly  
 
 Happy masternoding!
+___
 ### 7. Official links  
 Bitcointalk: https://bitcointalk.org/index.php?topic=3354132.0  
 Discord: https://discord.gg/EKsudbR  
