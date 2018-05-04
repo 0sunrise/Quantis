@@ -16,6 +16,7 @@ The guide below is done using Ubuntu 16.04 64-bit.
 4. Local Windows wallet setup2  
 5. Starting Masternode  
 6. Checking masternode status  
+7. Official links
 <!--3-3. Download the wallet and extract from the archive-->  
 ___
 ### 1. Requirements
@@ -135,6 +136,16 @@ After a muinite your masternode will appear on `Quantis Network`
 After 30 nuinites `Active(secs)` reflected on Your masternode  
 It is Recommended to be checked by click `Update` regularly  
 
+Happy masternoding!
+### 7. Official links  
+Bitcointalk: https://bitcointalk.org/index.php?topic=3354132.0  
+Discord: https://discord.gg/EKsudbR  
+Twitter: https://twitter.com/QuantisNetwork  
+Facebook: https://www.facebook.com/Quantis-107598363410217/  
+Website: http://quantis.network  
 
+Please help us raise funds!  
+Bitcoin wallet: 14STYDo6HVKEcmtXYzut1ydbxJo3aSkX2b  
+Ethereum wallet: 0x0fa44eB309811A3A24FC9095aEACb4d52B0b3238  
 
 Thanks
