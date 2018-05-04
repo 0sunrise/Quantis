@@ -11,7 +11,7 @@ The guide below is done using Ubuntu 16.04 64-bit.
       3-3-1. Setup swapfile  
       3-3-2. Downloading Quantis source code from official release  
       3-3-3. Compiling  
-    3-4. Setup conf file
+    3-4. Setup conf file  
     3-5. Starting wallet daemon
 4. Local Windows wallet setup2  
 5. Starting Masternode  
@@ -110,6 +110,15 @@ Press enter
 #### 3-5. Start wallet daemon  
 cd quantis  
 ./quantisd -daemon  
+##### Usage  
+Stop daemon  
+./quantisd stop  
+
+Display information  
+[watch] ./quantisd getinfo  
+[watch] ./quantisd getmininginfo  
+[watch] ./quantisd getblockcount  
+[watch] ./quantisd masternode status  
 
 ___
 ### 4. Local Windows wallet setup2  
