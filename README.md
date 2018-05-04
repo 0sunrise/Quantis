@@ -24,7 +24,7 @@ ___
 * VPS server (Recommended VPS size at least 1GB RAM)
 ___
 ### 2. Local Windows wallet setup1  
-Download latest windows wallet from official release : [GitHub](https://github.com/QuantisNetwork/Quantis-public/releases/download/Publicrelease)  
+Download latest windows wallet from official release : [GitHub](https://github.com/QuantisNetwork/Quantis-public/releases)  
 Open the wallet    
 Go to `Receive` tab  
 Click `New Address` and enter label name(ex. masternode-1) and click `OK`(do NOT check `Stealth Address`)  
@@ -56,7 +56,8 @@ sudo apt-get install libgmp3-dev
 sudo ufw allow 5050/tcp  
 ##### System restart  
 sudo reboot (If already active, sudo ufw reload)
-#### 3-3. Compiling
+#### 3-3. Compiling  
+If you don't want to compile go to 3-4 and use install script  
 ##### 3-3-1. Setup swapfile  
 fallocate -l 4G /swapfile  
 chown root:root /swapfile  
@@ -69,6 +70,7 @@ echo '/swapfile none swap sw 0 0' >> /etc/fstab
 ##### System restart  
 sudo reboot
 ##### 3-3-2. Download Quantis source code from official release  
+cd~/  
 git clone https://github.com/QuantisNetwork/Quantis-public  
 mkdir quantis  
 ##### 3-3-3. Compiling  
@@ -77,12 +79,15 @@ chmod +x build_detect_platform
 make clean  
 make libleveldb.a libmemenv.a  
 cd ../  
-make -f makefile.unix
+make -f makefile.unix  
 mv quantisd ~/quantis/  
-cd ~/
+cd ~/  
 rm -r Quantis-public  
 
 #### 3-4. Setup conf file  
+(You can use install script made by Chased1k [here](https://github.com/Chased1k/quantis))  
+
+
 cd ~/
 mkdir .quantis  
 nano ~/.quantis/quantis.conf  
