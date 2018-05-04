@@ -1,6 +1,7 @@
 # Quantis Masternode Setup Guide
 
-The guide below is done using Ubuntu 16.04 64-bit.
+The guide below is done using Ubuntu 16.04 64-bit.  
+###### Please use at your own risk!  
 ### Overview
 1. Requirements  
 2. Local Windows wallet setup1
