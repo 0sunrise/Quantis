@@ -1,12 +1,14 @@
-# Quantis Masternode Setup Guide
+# Cold wallet Quantis masternode Guide
 
 The guide below is done using Ubuntu 16.04 64-bit.  
+Because of security risks, hot wallet is not recommended.
+
 ###### Please use at your own risk!  
 ### Overview
 1. Requirements  
 2. Local Windows wallet setup1
 3. VPS setup  
-    3-1. Install the dependancies(If already running other masternodes, skippable)  
+    3-1. Install the dependancies(If already running others masternodes, skippable)  
       3.2. Open Firewall for Quantis  
     3-3. Compiling  
       3-3-1. Setup swapfile  
@@ -17,8 +19,9 @@ The guide below is done using Ubuntu 16.04 64-bit.
 4. Local Windows wallet setup2  
 5. Starting Masternode  
 6. Checking masternode status  
-7. Official links
-<!--3-3. Download the wallet and extract from the archive-->  
+7. Official links  
+
+If you prefer simpleness to concreteness, use [the other guide made by Chased1K](https://github.com/Chased1k/quantis).  
 ___
 ### 1. Requirements
 * 5001 QUAN (5000 collateral + 1 to cover any TX fees)  
@@ -56,9 +59,8 @@ sudo apt-get install libgmp3-dev
 #### 3-2. Open Firewall for the Quantis  
 sudo ufw allow 5050/tcp  
 ##### System restart  
-sudo reboot (If already active, sudo ufw reload)
-#### 3-3. Compiling  
-If you don't want to compile go to 3-4 and use install script  
+sudo reboot (If already active, type 'sudo ufw reload' instead of reboot)
+#### 3-3. Compiling    
 ##### 3-3-1. Setup swapfile  
 fallocate -l 4G /swapfile  
 chown root:root /swapfile  
@@ -86,7 +88,7 @@ cd ~/
 rm -r Quantis-public  
 
 #### 3-4. Setup conf file  
-(You can use install script made by Chased1k [here](https://github.com/Chased1k/quantis))  
+
 
 
 cd ~/
@@ -108,7 +110,7 @@ masternode=1
 masternodeprivkey=your private key(Generated at step2)  
 masternodeaddr=your VPS IP:5050  
 
-
+##### Save & Exit  
 
 Press Ctrl + x  
 Press y  
@@ -133,7 +135,7 @@ After 16 confirmations type `masternode outputs` on `Debug window`
 Press Windows key + R  
 Type `%appdata%/Quantis` and press enter key  
 Edit `masternode.conf`  
-(If not exist make a new text file and rename to `masternode.conf`)     
+(If the file doesn't exist, make a new text file and rename to `masternode.conf`)     
 `label vpsIP:port masternodekey collateraltx index`  
 ex. Masternode-1 123.456.789.0:5050 1234567890asdfghjk 0  
 (masternodekey and collateraltx and index are pasted from `Debug window`)  
@@ -147,7 +149,7 @@ Go to `My Master Nodes`
 Click `Update`  
 Select Alias made at step2  
 Click `Start`  
-After a muinite your masternode will appear on `Quantis Network`
+Approximately 30 seconds later your masternode will appear on `Quantis Network`
 ___
 ### 6. Check masternode status  
 After 30 nuinites `Active(secs)` reflected on Your masternode  
@@ -157,12 +159,16 @@ Happy masternoding!
 ___
 ### 7. Official links  
 Bitcointalk: https://bitcointalk.org/index.php?topic=3354132.0  
+Explorer: https://quantis.blockxplorer.info/  
 Discord: https://discord.gg/EKsudbR  
 Twitter: https://twitter.com/QuantisNetwork  
 Facebook: https://www.facebook.com/Quantis-107598363410217/  
 Website: http://quantis.network  
 
 Please help us raise funds!  
+
+Development fund  
+Quantis wallet: QaeLt6Tt4YVNbS9zWTRSAe6D6jDbzhJD5x  
 Bitcoin wallet: 14STYDo6HVKEcmtXYzut1ydbxJo3aSkX2b  
 Ethereum wallet: 0x0fa44eB309811A3A24FC9095aEACb4d52B0b3238  
 
