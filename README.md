@@ -73,7 +73,7 @@ echo '/swapfile none swap sw 0 0' >> /etc/fstab
 ##### System restart  
 sudo reboot
 ##### 3-3-2. Download Quantis source code from official release  
-cd~/  
+cd ~/  
 git clone https://github.com/QuantisNetwork/Quantis-public  
 mkdir quantis  
 ##### 3-3-3. Compiling  
@@ -91,7 +91,7 @@ rm -r Quantis-public
 
 
 
-cd ~/
+cd ~/  
 mkdir .quantis  
 nano ~/.quantis/quantis.conf  
 
