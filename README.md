@@ -4,9 +4,9 @@ The guide below is done using Ubuntu 16.04 64-bit.
 Because of security risks, hot wallet is not recommended.
 
 ###### Please use at your own risk!  
-### Overview
+### Overview  
 1. Requirements  
-2. Local Windows wallet setup1
+2. Local Windows wallet setup1  
 3. VPS setup  
     3-1. Install the dependancies(If already running others masternodes, skippable)  
       3.2. Open Firewall for Quantis  
@@ -40,11 +40,12 @@ Click `Send`(do NOT check `Darksend`and `InstantX`)
 Go to `Help` -> `Debug window`  
 Open `Console`and type `masternode genkey`  
 Write down the key(or leave the window as it is)  
-Wait for 16 confirmations(Go to next step while waiting)   
+Wait for 15 confirmations(Go to next step while waiting)   
 ___
 ### 3. VPS setup  
 Login to your VPS
-#### 3-1. Install the dependancies
+#### 3-1. Install the dependancies  
+(If you login as root, you don't need type 'sudo')  
 sudo apt-get update && apt-get upgrade  
 sudo apt-get dist-upgrade  
 sudo apt-get install libzmq3-dev libminiupnpc-dev libssl-dev libevent-dev -y  
@@ -57,7 +58,9 @@ sudo apt-get update
 sudo apt-get install libdb4.8-dev libdb4.8++-dev  -y  
 sudo apt-get install libgmp3-dev  
 #### 3-2. Open Firewall for the Quantis  
+sudo ufw limit ssh/tcp  
 sudo ufw allow 5050/tcp  
+sudo ufw enable  
 ##### System restart  
 sudo reboot (If already active, type 'sudo ufw reload' instead of reboot)
 #### 3-3. Compiling    
@@ -67,8 +70,7 @@ chown root:root /swapfile
 chmod 0600 /swapfile  
 sudo bash -c "echo 'vm.swappiness = 10' >> /etc/sysctl.conf"  
 mkswap /swapfile  
-swapon /swapfile  
-Initialize swapfile automatically on boot  
+swapon /swapfile    
 echo '/swapfile none swap sw 0 0' >> /etc/fstab  
 ##### System restart  
 sudo reboot
