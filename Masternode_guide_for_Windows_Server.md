@@ -64,7 +64,7 @@ masternodeaddr=your VPS IP:5050
 ___
 #### 3-2. Firewall setup  
 Open `control panel` -> `System and Security` -> `Windows Firewall`  
-![image](https://github.com/0sunrise/Quantis/tree/master/images/firewall.png "Firewall")
+![firewall](https://user-images.githubusercontent.com/38932966/42580081-aec70204-8564-11e8-92cd-a39bc6a54ace.png)
 
 Open `Advanced settings`  
 Click on `Inbound Rules` and `New Rule...`  
