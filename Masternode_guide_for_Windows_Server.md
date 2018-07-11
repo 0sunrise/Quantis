@@ -64,15 +64,27 @@ masternodeaddr=your VPS IP:5050
 ___
 #### 3-2. Firewall setup  
 Open `control panel` -> `System and Security` -> `Windows Firewall`  
+Open `Advanced settings`  
 ![firewall](https://user-images.githubusercontent.com/38932966/42580081-aec70204-8564-11e8-92cd-a39bc6a54ace.png)
 
-Open `Advanced settings`  
+
 Click on `Inbound Rules` and `New Rule...`  
+![firewall2](https://user-images.githubusercontent.com/38932966/42580212-00ac7e0a-8565-11e8-8b1c-4b4a12fc6d29.png)
+
 Select `Port` then click on `Next`  
+![firewall3](https://user-images.githubusercontent.com/38932966/42580310-2af2d8e4-8565-11e8-97e3-846d79dead13.png)
+
 Select `TCP`, `Specific local ports`, input 5050 and then click on `Next`  
+![firewall4](https://user-images.githubusercontent.com/38932966/42580326-35c7394a-8565-11e8-93f9-2d51aecf2b97.png)
+
 Select `Allow the connection` then click on `Next`  
+![firewall5](https://user-images.githubusercontent.com/38932966/42580340-3d6f2694-8565-11e8-80f4-69d49551e80f.png)
+
 Click on `Next`  
+![firewall6](https://user-images.githubusercontent.com/38932966/42580361-49e60d7a-8565-11e8-90a1-d709bcab2821.png)
+
 Input "Quantis" in the name section then click on `Finish`  
+![firewall7](https://user-images.githubusercontent.com/38932966/42580370-51544d7e-8565-11e8-8db0-5736902624d1.png)
 
 ##### Start the wallet
 ___
