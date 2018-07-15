@@ -41,7 +41,11 @@ Use "Coin Control" feature when setting the second and the subsequent masternode
 
 Click `Send`(do NOT check `Darksend`)  
 Go to `Help` -> `Debug window`  
+![walletsetup5](https://user-images.githubusercontent.com/38932966/42730729-c6860794-8836-11e8-996d-e672116672a1.png)
+
 Open `Console`and type `masternode genkey`  
+![walletsetup6](https://user-images.githubusercontent.com/38932966/42730757-8763d860-8837-11e8-848d-7d795eef3e77.png)
+
 Write down the key(or leave the window as it is)  
 Wait for 15 confirmations(Go to next step while waiting)   
 ___  
