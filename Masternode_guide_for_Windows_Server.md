@@ -20,7 +20,7 @@ ___
 * Windows VPS server  
 * A local home PC
 ___
-### 2. Local Windows wallet setup1  
+### 2. Setup local Windows wallet part 1 of 2  
 Download latest windows wallet from official release : [GitHub](https://github.com/QuantisNetwork/Quantis-public/releases)  
 Open the wallet    
 Go to `Receive` tab  
@@ -49,7 +49,7 @@ Open `Console`and type `masternode genkey`
 Write down the key(or leave the window as it is)  
 Wait for 15 confirmations(Go to next step while waiting)   
 ___  
-### 3. Windows VPS setup  
+### 3. Setup Windows VPS
 #### 3-1. Download wallet and config file setup
 Run Windows update and restart the server
 Download latest windows wallet from official release : [GitHub](https://github.com/QuantisNetwork/Quantis-public/releases)  
@@ -75,7 +75,7 @@ masternode=1
 masternodeprivkey=your private key(Generated in the step 2)  
 masternodeaddr=your VPS IP:5050  
 ___
-#### 3-2. Firewall setup  
+#### 3-2. Setup firewall
 Open `control panel` -> `System and Security` -> `Windows Firewall`  
 Open `Advanced settings`  
 ![firewall](https://user-images.githubusercontent.com/38932966/42580081-aec70204-8564-11e8-92cd-a39bc6a54ace.png)
@@ -101,7 +101,7 @@ Input "Quantis" in the name section then click on `Finish`
 
 Start the wallet on the VPS
 ___
-### 4. Local Windows wallet setup2  
+### 4. Setup local Windows wallet part 2 of 2  
 Back to the local wallet  
 After 15 confirmations type `masternode outputs` on `Debug window`  
 Press Windows key + R key  
@@ -116,7 +116,7 @@ Edit `masternode.conf` as described below
 Save & close masternode.conf file  
 Close the wallet and restart it   
 ___
-### 5. Starting Masternode  
+### 5. Start Masternode  
 Check if both local and VPS wallet are fully synced  
 Go to `Masternodes` tab    
 Go to `My Master Nodes`  
