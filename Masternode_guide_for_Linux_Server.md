@@ -112,7 +112,7 @@ Paste those settings and edit rpcuser,rpcpassword,masternodeprivkey,masternodead
     masternodeprivkey=your private key(Generated in the step2)  
     masternodeaddr=your VPS IP:5050  
 
-##### Save & Exit  
+#### Save & Exit  
 
 Press Ctrl + x  
 Press y  
