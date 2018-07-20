@@ -33,22 +33,37 @@ ___
 Download latest windows wallet from official release : [GitHub](https://github.com/QuantisNetwork/Quantis-public/releases)  
 Open the wallet    
 Go to `Receive` tab  
+![walletsetup1](https://user-images.githubusercontent.com/38932966/42698634-74b35cde-86f9-11e8-99ed-ff033b1407eb.png)
+
 Click `New Address` and enter label name(e.g. MN01) and click `OK`(do NOT check `Stealth Address`)  
+![walletsetup2](https://user-images.githubusercontent.com/38932966/42698674-8f061f68-86f9-11e8-87fd-9825b35628f4.png)
+
 Select the created address and click `Copy Address`  
+![walletsetup3](https://user-images.githubusercontent.com/38932966/42698738-c1142914-86f9-11e8-904b-d6495ff2e8b5.png)
+
 Go to `Send` tab
 Paste on `Pay To` box and enter 5000 on `Amount` box  
 *Nortice : Ensure that must be sent exactly 5000 QUAN and do it in a single transaction*  
+![walletsetup4](https://user-images.githubusercontent.com/38932966/42699135-ca55aa6a-86fa-11e8-82c1-ad7c7954eada.png)
+
+Use "Coin Control" feature when setting the second and the subsequent masternode and do NOT check the boxes of collaterals. (See the step 8)  
+
 Click `Send`(do NOT check `Darksend`)  
 Go to `Help` -> `Debug window`  
+![walletsetup5](https://user-images.githubusercontent.com/38932966/42730729-c6860794-8836-11e8-996d-e672116672a1.png)
+
 Open `Console`and type `masternode genkey`  
+![walletsetup6](https://user-images.githubusercontent.com/38932966/42730757-8763d860-8837-11e8-848d-7d795eef3e77.png)
+
 Write down the key(or leave the window as it is)  
-Wait for 15 confirmations(Go to next step while waiting)   
+Wait for 15 confirmations(Go to next step while waiting)
 ___
 ### 3. Setup VPS   
 Login to your VPS
 #### 3-1. Install the dependancies  
-Paste followings into putty  
+Paste followings into putty (one line at a time)  
 (If you login as root, you don't need type 'sudo')  
+
 
     sudo apt-get update && apt-get upgrade  
     sudo apt-get dist-upgrade  
@@ -145,7 +160,7 @@ Approximately 30 seconds later your masternode will appear on `Quantis Network`
 ___
 ### 6. Check masternode status  
 After 30 minuites, your masternode `Active(secs)` will be reflected  
-It is recommended that you check your masternodes status with clicking `Update` regularly because sometimes  
+(It is recommended that you check your masternodes status with clicking `Update` regularly)  
 
 Happy masternoding!
 ___
