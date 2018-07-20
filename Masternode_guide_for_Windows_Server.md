@@ -117,7 +117,7 @@ Save & close masternode.conf file
 Close the wallet and restart it   
 ___
 ### 5. Start Masternode  
-Check if both local and VPS wallet are fully synced  
+Check if both local and VPS wallets are fully synced  
 Go to `Masternodes` tab    
 Go to `My Master Nodes`  
 Click on `Update`  
