@@ -2,7 +2,7 @@
 The guide below is done using Windows Server 2012R2.  
 Hot wallet is not recommended because of security risks.
 
-##### Please use at your own risk!
+#### Please use at your own risk!
 ### Overview  
 1. Requirements  
 2. Local Windows wallet setup1  
