@@ -102,33 +102,54 @@ Input "Quantis" in the name section then click on `Finish`
 Start the wallet on the VPS
 ___
 ### 4. Setup local Windows wallet part 2 of 2  
-Back to the local wallet  
+Back to windows wallet  
 After 15 confirmations type `masternode outputs` on `Debug window`  
-Press Windows key + R key  
+![outputs1](https://user-images.githubusercontent.com/38932966/43034540-3270c07a-8d19-11e8-8dac-661738d6c2f7.png)  
+
+![outputs2](https://user-images.githubusercontent.com/38932966/43034541-35b27d64-8d19-11e8-8550-c2309d332523.png)  
+
+Press Windows key + R  
 Type `%appdata%/Quantis` and press enter key  
-Edit `masternode.conf` as described below  
-(If the file doesn't exist, make a new text file and rename to `masternode.conf`)     
+![outputs3](https://user-images.githubusercontent.com/38932966/43034542-3a00853c-8d19-11e8-85fe-5e35d185158b.png)  
+
+Open and edit `masternode.conf`  
+(If the file doesn't exist, make a new text file and rename to `masternode.conf`)   
+![outputs4](https://user-images.githubusercontent.com/38932966/43034543-3b8d84ae-8d19-11e8-98e8-f997a51398ad.png)  
+![outputs5](https://user-images.githubusercontent.com/38932966/43034545-3d27cde2-8d19-11e8-8368-17dd3f02b7c6.png)  
+
 
 `label vpsIP:port masternodekey collateraltx index`  
-(e.g. MN01 123.456.789.0:5050 1234567890asdfghjk d0a362e103f7111489103bb99ea7f08b 0)  
-
-(masternode key and collateraltx and index are pasted from `Debug window`)  
-Save & close masternode.conf file  
-Close the wallet and restart it   
+(e.g. MN01 123.456.789.0:5050 1234567890asdfghjk d0a362e103f7111489103bb99ea7f08b 1)  
+![outputs6](https://user-images.githubusercontent.com/38932966/43034702-74f00296-8d1c-11e8-92e9-b4bb004e0a8e.png)  
+(masternodekey(private key), collateraltx and index are pasted from `Debug window`)  
+Save & close `masternode.conf` and windows wallet.  
 ___
 ### 5. Start Masternode  
+Start windows wallet  
 Check if both local and VPS wallets are fully synced  
-Go to `Masternodes` tab    
+(You can check current block with [block explorer](https://quantis.blockxplorer.info/))  
+![start1](https://user-images.githubusercontent.com/38932966/43034923-7b671ad4-8d20-11e8-8181-ba73df054388.png)  
+
+Go to `Masternodes` tab  
 Go to `My Master Nodes`  
-Click on `Update`  
-Select an alias you made in the step2  
-Click on `Start`  
-Approximately 30 seconds later your masternode will appear on `Quantis Network`
+Click `Update`  
+![start2](https://user-images.githubusercontent.com/38932966/43034924-7c76f250-8d20-11e8-9256-6eba6b37491e.png)
+
+Select Alias made at step2  
+Click `Start`  
+![start3](https://user-images.githubusercontent.com/38932966/43035233-2199d328-8d27-11e8-9dab-4319bbd219b4.png)  
+![start4](https://user-images.githubusercontent.com/38932966/43035234-231ac626-8d27-11e8-9046-270b3f6ea67b.png)  
+
+Approximately 30 seconds later your masternode will appear on `Quantis Network`  
+![start5](https://user-images.githubusercontent.com/38932966/43035284-f1e728a0-8d27-11e8-977e-f4060886706f.png)  
+
+
+Wait 30 minuites
 ___
 ### 6. Check masternode status  
-After about 30 minuites, your masternode `Active(secs)` will be reflected  
-(It is recommended that you check your masternodes status with clicking `Update` regularly)
-
+After 30 minuites, your masternode `Active(secs)` will be reflected  
+![start6](https://user-images.githubusercontent.com/38932966/43035479-ade6553c-8d2b-11e8-8bbb-45e3debf3e76.png)  
+(It is recommended that you check your masternodes status with clicking `Update` regularly)  
 ### Happy masternoding!
 ___
 ### 7. How to manage the coins  
