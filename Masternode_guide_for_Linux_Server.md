@@ -18,8 +18,9 @@ Hot wallet is not recommended because of security risks.
     3-5. Starting wallet daemon  
 4. Local Windows wallet setup2  
 5. Starting Masternode  
-6. Checking masternode status  
-7. Official links  
+6. Checking masternode status
+7. How to manage the coins   
+8. Official links  
 
 This guide is for manually setup  
 If you prefer simpleness to concreteness, use [a install script  made by Chased1K](https://github.com/Chased1k/quantis).  
@@ -159,7 +160,7 @@ Open and edit `masternode.conf`
 (masternodekey(private key), collateraltx and index are pasted from `Debug window`)  
 Save & close `masternode.conf` and windows wallet.  
 ___
-### 5. Start Masternode  
+### 5. Starting Masternode  
 Start windows wallet  
 Check if both local and VPS wallets are fully synced  
 (You can check current block with [block explorer](https://quantis.blockxplorer.info/))  
@@ -181,7 +182,7 @@ Approximately 30 seconds later your masternode will appear on `Quantis Network`
 
 Wait 30 minuites
 ___
-### 6. Check masternode status  
+### 6. Checking masternode status  
 After 30 minuites, your masternode `Active(secs)` will be reflected  
 ![start6](https://user-images.githubusercontent.com/38932966/43035479-ade6553c-8d2b-11e8-8bbb-45e3debf3e76.png)  
 (It is recommended that you check your masternodes status with clicking `Update` regularly)  
@@ -240,10 +241,17 @@ Facebook: https://www.facebook.com/Quantis-107598363410217/
 Website: http://quantis.network  
 
 ### Please help us raise funds!  
-#### Official development funds  
-Quantis wallet: QaeLt6Tt4YVNbS9zWTRSAe6D6jDbzhJD5x  
-Bitcoin wallet: 14STYDo6HVKEcmtXYzut1ydbxJo3aSkX2b  
-Ethereum wallet: 0x0fa44eB309811A3A24FC9095aEACb4d52B0b3238  
+#### Official donation funds  
+
+marketing, exchanges, fixed costs, etc  
+Quantis : QYbAcGFM1EsLZFUzcoikmfEtahxuJHL6JR  
+Bitcoin : 128NyyvXWbzLV4bffs4iCePUqCqpaxjiBN  
+Ethereum : 0xE9BC3D19ac1491C00627B83CE1EA7c6CDa7EcA97  
+
+development  
+Quantis : QaeLt6Tt4YVNbS9zWTRSAe6D6jDbzhJD5x  
+Bitcoin : 14STYDo6HVKEcmtXYzut1ydbxJo3aSkX2b  
+Ethereum : 0x0fa44eB309811A3A24FC9095aEACb4d52B0b3238
 
 Thanks
 ___
