@@ -188,9 +188,16 @@ Website: http://quantis.network
 
 ### Please help us raise funds!  
 
-#### Official development funds  
-Quantis wallet: QaeLt6Tt4YVNbS9zWTRSAe6D6jDbzhJD5x  
-Bitcoin wallet: 14STYDo6HVKEcmtXYzut1ydbxJo3aSkX2b  
-Ethereum wallet: 0x0fa44eB309811A3A24FC9095aEACb4d52B0b3238  
+#### Official donation funds  
+
+marketing, exchanges, fixed costs, etc  
+Quantis : QYbAcGFM1EsLZFUzcoikmfEtahxuJHL6JR  
+Bitcoin : 128NyyvXWbzLV4bffs4iCePUqCqpaxjiBN  
+Ethereum : 0xE9BC3D19ac1491C00627B83CE1EA7c6CDa7EcA97  
+
+development  
+Quantis : QaeLt6Tt4YVNbS9zWTRSAe6D6jDbzhJD5x  
+Bitcoin : 14STYDo6HVKEcmtXYzut1ydbxJo3aSkX2b  
+Ethereum : 0x0fa44eB309811A3A24FC9095aEACb4d52B0b3238
 
 Thanks
