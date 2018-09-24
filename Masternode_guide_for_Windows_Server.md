@@ -181,7 +181,7 @@ For example, When you add a master node or send some coins to other address clic
 ### 8. Official links  
 Bitcointalk: https://bitcointalk.org/index.php?topic=3354132.0  
 Explorer: https://quantis.blockxplorer.info/  
-Discord: https://discord.gg/EKsudbR  
+Discord: https://discord.gg/MWxfyKg  
 Twitter: https://twitter.com/QuantisNetwork  
 Facebook: https://www.facebook.com/Quantis-107598363410217/  
 Website: http://quantis.network  
