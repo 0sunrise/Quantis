@@ -180,11 +180,11 @@ For example, When you add a master node or send some coins to other address clic
 <font color="crimson">Attention: If you forget uncheck the boxes of collaterals, your masternodes will be stopped. You need to resend collaterals to recover the masternodes.  </font>
 ### 8. Official links  
 Bitcointalk: https://bitcointalk.org/index.php?topic=3354132.0  
-Explorer: https://quantis.blockxplorer.info/  
+Explorer: https://quantisexplorer.online/  
 Discord: https://discord.gg/MWxfyKg  
 Twitter: https://twitter.com/QuantisNetwork  
 Facebook: https://www.facebook.com/Quantis-107598363410217/  
-Website: http://quantis.network  
+Website: https://quantisnetwork.org/  
 
 ### Please help us raise funds!  
 
