@@ -11,7 +11,7 @@ echo "!                                                 !"
 echo "! Make sure you double check before hitting enter !"
 echo "!                                                 !"
 echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
-sleep 3
+sleep 3s
 echo && echo && echo
 
 TMP_FOLDER=$(mktemp -d)
@@ -24,7 +24,7 @@ COIN_TGZ='http://45.76.62.99/files/quantisnetd'
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
 COIN_NAME='quantisnet'
 COIN_PORT=7771
-#COIN_EXPLORER='http:'
+COIN_EXPLORER='https://chain.quantisnetwork.org/'
 
 OCONFIGFOLDER='/root/.quantisnet'
 OCOIN_DAEMON='quantisd'
@@ -48,8 +48,8 @@ MAG='\e[1;35m'
 purgeOldInstallation() {
     echo -e "${GREEN}Searching and removing old $COIN_NAME files and configurations${NC}"
     #kill wallet daemon
-	sudo killall $OCOIN_DAEMON > /dev/null 2>&1
-	sudo killall $COIN_DAEMON > /dev/null 2>&1
+        sudo killall $OCOIN_DAEMON > /dev/null 2>&1
+        sudo killall $COIN_DAEMON > /dev/null 2>&1
     #remove old ufw port allow
     sudo ufw delete allow $OCOIN_PORT/tcp > /dev/null 2>&1
     #remove old files
